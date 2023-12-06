@@ -1,0 +1,54 @@
+# Prerequisites
+src/*.d
+
+# Object files
+src/*.o
+src/*.ko
+src/*.obj
+src/*.elf
+
+# Linker output
+src/*.ilk
+src/*.map
+src/*.exp
+
+# Precompiled Headers
+src/*.gch
+src/*.pch
+
+# Libraries
+src/*.lib
+src/*.a
+src/*.la
+src/*.lo
+
+# Shared objects (inc. Windows DLLs)
+src/*.dll
+src/*.so
+src/*.so.*
+src/*.dylib
+
+# Executables
+src/*.exe
+src/*.out
+src/*.app
+src/*.i*86
+src/*.x86_64
+src/*.hex
+
+# Debug files
+src/*.dSYM/
+src/*.su
+src/*.idb
+src/*.pdb
+
+# Kernel Module Compile Results
+src/*.mod*
+src/*.cmd
+src/.tmp_versions/
+src/modules.order
+src/Module.symvers
+src/Mkfile.old
+src/dkms.conf
+
+linux_vm/
